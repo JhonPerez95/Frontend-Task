@@ -1,0 +1,26 @@
+.App {
+  background-color: #282c34;
+  color: #282c34;
+  text-align: center;
+
+}
+
+.hr{
+  background-color: #b2b6bf;
+  color: white;
+}
+
+.btn-card{
+  margin-right: 2px;
+
+}
+
+.title-app {
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
