@@ -35,7 +35,7 @@ export const FormTask = () => {
       })
       setIsUpdate(false)
     } else {
-       await axios({
+      await axios({
         method: 'POST',
         url: 'http://localhost:4040/api/task',
         data: form,
@@ -55,9 +55,9 @@ export const FormTask = () => {
   }
 
   return (
-    <div>
-      <Form>
-        <h3 className="title-Form">Crear o Editar una tarea</h3>
+    <div className="container ">
+      <Form className="form-size">
+        <h3 className="title-Form">Crear o Editar Una Tarea</h3>
         <Form.Group className="mb-3" name="title" controlId="formTitle">
           <Form.Control
             name="title"
@@ -86,7 +86,12 @@ export const FormTask = () => {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit" onClick={handlerSend}>
+        <Button
+          variant="primary"
+          type="submit"
+          className="btn-send"
+          onClick={handlerSend}
+        >
           Enviar
         </Button>
       </Form>

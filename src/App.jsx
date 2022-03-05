@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App container">
       <div className="row">
-        <h1 className="mt-2 title-app ">CRUD TASK</h1>
+        <h1 className="mt-2 title-app ">Gestor de Tareas</h1>
       </div>
 
-      <div className="container">
+      <div className="container App-header">
         <hr className="hr" />
         <FormTask />
       </div>
